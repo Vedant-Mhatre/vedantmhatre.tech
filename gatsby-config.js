@@ -3,9 +3,9 @@ module.exports = {
     // Site URL for when it goes live
     siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
     // Your Name
-    name: 'Kyle Hoehns',
+    name: 'Vedant Mhatre',
     // Main Site Title
-    title: `Kyle Hoehns`,
+    title: `Vedant Mhatre`,
     // Description that goes under your name in main bio
     description: `Senior Software Engineer with a history of high-quality application development.`,
     // Optional: Twitter account handle
