@@ -18,7 +18,8 @@ module.exports = {
     about: `Software engineer who wants to solve real world problems using technology.
     Started my journey in 2014 by tinkering around linux, android, applying custom patches to apps or entire OS,
     using custom kernels and frameworks optimise OS. Over the next few years explored various domains like cyber 
-    security, web development, cloud engineering and DevOps.`,// Optional: List your projects, they must have `name` and `description`. `link` is optional.
+    security, web development, cloud engineering and DevOps.`,
+    // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
         name: 'Ambulance Booking App',
@@ -47,12 +48,14 @@ module.exports = {
         link: 'http://hiverhq.com/',
         children: [
           {
-            description: 'Developed a CLI tool for local development using DevSpace, Node js, and EKS improving consistency between local & production environments.'
+            description:
+              'Developed a CLI tool for local development using DevSpace, Node js, and EKS improving consistency between local & production environments.',
           },
           {
-            description: 'Containerized & deployed legacy microservices to Kubernetes, improving scalability and reliability.'
-          }
-        ]
+            description:
+              'Containerized & deployed legacy microservices to Kubernetes, improving scalability and reliability.',
+          },
+        ],
       },
       {
         name: 'Sapio Analytics',
@@ -60,34 +63,37 @@ module.exports = {
         link: 'https://sapioanalytics.com/',
         children: [
           {
-            description: 'Led a cloud team of 2-3 interns and restructured the overall architecture of the system.'
+            description:
+              'Led a cloud team of 2-3 interns and restructured the overall architecture of the system.',
           },
           {
-            description: 'Migrated system from EC2s to AWS Lambdas using zappa which increased scalability and reliability.'
-          }
-        ]
+            description:
+              'Migrated system from EC2s to AWS Lambdas using zappa which increased scalability and reliability.',
+          },
+        ],
       },
       {
         name: 'A.P. Shah Institute of Technology',
-        description: 'Technical Team Lead - Volunteer, October 2019 - March 2020',
+        description:
+          'Technical Team Lead - Volunteer, October 2019 - March 2020',
         link: 'https://www.apsit.edu.in/',
         children: [
           {
-            description: 'Developed a college training and placement portal using Django framework and MySQL database which could handle 500+ users.'
+            description:
+              'Developed a college training and placement portal using Django framework and MySQL database which could handle 500+ users.',
           },
           {
-            description: 'Built an administration panel with multiple features to facilitate easier management of real-time data.'
-          }
-        ]
-      }
-
+            description:
+              'Built an administration panel with multiple features to facilitate easier management of real-time data.',
+          },
+        ],
+      },
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
         name: 'Languages / Configuration',
-        description:
-          'Python, Java, Go, Javascript, Terraform, Helm',
+        description: 'Python, Java, Go, Javascript, Terraform, Helm',
       },
       {
         name: 'Databases',
@@ -95,8 +101,7 @@ module.exports = {
       },
       {
         name: 'Tools',
-        description:
-          'Docker, Kubernetes, Prometheus, Elasticsearch, Argo CD',
+        description: 'Docker, Kubernetes, Prometheus, Elasticsearch, Argo CD',
       },
     ],
   },
@@ -161,4 +166,4 @@ module.exports = {
       },
     },
   ],
-};
+}
