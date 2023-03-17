@@ -15,7 +15,30 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/vedant-mhatre/`,
     // Content of the About Me section
-    about: `Software engineer who wants to solve real world problems using technology`,
+    about: `Software engineer who wants to solve real world problems using technology.
+    Started my journey in 2014 by tinkering around linux, android, applying custom patches to apps or entire OS,
+    using custom kernels and frameworks optimise OS. Over the next few years explored various domains like cyber 
+    security, web development, cloud engineering and DevOps.`,// Optional: List your projects, they must have `name` and `description`. `link` is optional.
+    projects: [
+      {
+        name: 'Ambulance Booking App',
+        description:
+          'Built with features like live ambulance tracking, used Java, Google Maps & Firebase.',
+        link: '#',
+      },
+      {
+        name: 'Excessive Food Portal',
+        description:
+          'To connect hotels & people having excess food to NGOs, used LAMP stack & Docker.',
+        link: 'https://github.com/hackinutu-CAVE/Food-Portal',
+      },
+      {
+        name: 'Stocks Notifier',
+        description:
+          'Lightweight stock tracker which alerts when stock price drops, built using Go.',
+        link: 'https://stocksnotifier.com/',
+      },
+    ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
@@ -33,7 +56,7 @@ module.exports = {
       },
       {
         name: 'Sapio Analytics',
-        description: 'Cloud Engineer, January 2021 - August 2021',
+        description: 'Cloud Engineer Intern, January 2021 - August 2021',
         link: 'https://sapioanalytics.com/',
         children: [
           {
@@ -44,6 +67,19 @@ module.exports = {
           }
         ]
       },
+      {
+        name: 'A.P. Shah Institute of Technology',
+        description: 'Technical Team Lead - Volunteer, October 2019 - March 2020',
+        link: 'https://www.apsit.edu.in/',
+        children: [
+          {
+            description: 'Developed a college training and placement portal using Django framework and MySQL database which could handle 500+ users.'
+          },
+          {
+            description: 'Built an administration panel with multiple features to facilitate easier management of real-time data.'
+          }
+        ]
+      }
 
     ],
     // Optional: List your skills, they must have `name` and `description`.
