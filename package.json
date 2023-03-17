@@ -3,7 +3,7 @@
   "private": true,
   "description": "A modern and production-ready personal portfolio + blog template built with GatsbyJs and TailwindCSS",
   "version": "0.1.0",
-  "author": "Ryan Fitzgerald",
+  "author": "Vedant Mhatre",
   "dependencies": {
     "gatsby": "5.7.0",
     "gatsby-image": "3.11.0",
@@ -50,9 +50,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/RyanFitzgerald/devfolio"
+    "url": "https://github.com/Vedant-Mhatre/vedantmhatre.tech"
   },
   "bugs": {
-    "url": "https://github.com/RyanFitzgerald/devfolio/issues"
+    "url": "https://github.com/Vedant-Mhatre/vedantmhatre.tech/issues"
   }
 }
