@@ -22,6 +22,12 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
+        name: 'Soil Solutions',
+        description:
+          'E-commerce website with advanced features including search functionality, Stripe payment integration, and more, built using Vue.js, Django REST framework, and PostgreSQL',
+        link: 'https://github.com/Vedant-Mhatre/SoilSolutions',
+      },
+      {
         name: 'Ambulance Booking App',
         description:
           'Built with features like live ambulance tracking, used Java, Google Maps & Firebase.',
@@ -49,7 +55,7 @@ module.exports = {
         children: [
           {
             description:
-              'Developed a CLI tool for local development using DevSpace, Node js, and EKS improving consistency between local & production environments.',
+              'Developed software tool for streamlined feature development and testing, increasing productivity and reducing testing time.',
           },
           {
             description:
@@ -97,7 +103,7 @@ module.exports = {
       },
       {
         name: 'Databases',
-        description: 'MySQL, MongoDB, Cloud Databases',
+        description: 'MySQL, MongoDB, PostgreSQL',
       },
       {
         name: 'Tools',
