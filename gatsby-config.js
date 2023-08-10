@@ -15,10 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/vedant-mhatre/`,
     // Content of the About Me section
-    about: `Software engineer who wants to solve real world problems using technology.
-    Started my journey in 2014 by tinkering around linux, android, applying custom patches to apps or entire OS,
-    using custom kernels and frameworks optimise OS. Over the next few years explored various domains like cyber 
-    security, web development, cloud engineering and DevOps.`,
+    about: `A software engineer who wants to solve real-world problems using technology. Started my journey in 2014 by experimenting with Linux and Android. Over the next few years explored various domains like cyber security, backend engineering, and DevOps. Currently focusing on backend engineering and DevOps.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
