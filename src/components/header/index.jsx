@@ -13,8 +13,7 @@ const classes = {
   description: 'text-gray-600',
   list: 'mt-6 uppercase tracking-wider',
   item: 'inline list-none pr-4',
-  link:
-    'inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black',
+  link: 'inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black',
 };
 
 const Header = ({ metadata = {}, noBlog = false }) => {
@@ -26,7 +25,13 @@ const Header = ({ metadata = {}, noBlog = false }) => {
     <div className={classes.wrapper}>
       <div className={classes.imageWrapper}>
         <Link to="/">
-          <img className={classes.image} src={profileImg} alt={metadata.name} />
+          <img
+            className={classes.image}
+            src="https://ermychri.sirv.com/Images/vedant-pic.png"
+            alt={metadata.name}
+            width="612"
+            height="612"
+          />
         </Link>
       </div>
       <div className={classes.contentWrapper}>
